@@ -171,7 +171,7 @@
 
 .st-block.st-drag-over:after, .st-block.st-drag-over:last-child:after, .st-block-controls__top.st-drag-over:before {
   font-family: inherit;
-  content: "Drop block here";
+  content: "Бросить блок сюда";
   text-align: center;
   padding: 0.7em 0;
   font-size: 1.125em;
