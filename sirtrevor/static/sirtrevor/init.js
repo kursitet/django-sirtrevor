@@ -6,6 +6,8 @@ $(function() {
             st,
             options;
 
+        SirTrevor.config.language = "ru";
+
         SirTrevor.setDefaults(defaults);
         options = _.extend({}, conf, {el: $el});
         st = new SirTrevor.Editor(options);
