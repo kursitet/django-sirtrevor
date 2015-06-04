@@ -56,6 +56,7 @@ class SirTrevorWidget(forms.Textarea):
             # 'sirtrevor/components/jquery/jquery.min.js',
             'sirtrevor/components/underscore/underscore-min.js',
             'sirtrevor/components/Eventable/eventable.js',
+            'sirtrevor/components/i18next/i18next.min.js',
             'sirtrevor/components/sir-trevor-js/sir-trevor.js',
             'sirtrevor/init.js',
         ]
