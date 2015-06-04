@@ -52,7 +52,8 @@ class SirTrevorWidget(forms.Textarea):
 
     class Media:
         js = [
-            'sirtrevor/components/jquery/jquery.min.js',
+            # Mihara: We're using a sitewide jquery, even in admin, so we want that out.
+            # 'sirtrevor/components/jquery/jquery.min.js',
             'sirtrevor/components/underscore/underscore-min.js',
             'sirtrevor/components/Eventable/eventable.js',
             'sirtrevor/components/sir-trevor-js/sir-trevor.js',
