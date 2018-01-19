@@ -63,6 +63,5 @@ class SirTrevorWidget(forms.Textarea):
         css = {
             'all': [
                 'sirtrevor/components/sir-trevor-js/sir-trevor.css',
-                'sirtrevor/components/sir-trevor-js/sir-trevor-icons.css',
             ]
         }
