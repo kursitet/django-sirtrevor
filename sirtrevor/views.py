@@ -11,8 +11,8 @@ from django.contrib.auth.decorators import user_passes_test
 from PIL import Image
 from .forms import AttachmentForm
 
-
-AUTH_TEST = lambda u: u.is_staff
+# Mihara: This should permit us to configure a different permission test for file upload with sirtrevor.
+AUTH_TEST = getattr(settings, 'SIRTREVOR_UPLOAD_USER_TEST', lambda u: u.is_staff)
 
 
 @csrf_exempt
